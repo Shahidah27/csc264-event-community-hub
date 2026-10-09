@@ -4,17 +4,33 @@ A web-based event management and community engagement platform built using PHP a
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Screenshots
 
-![Homepage]<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/eb35c669-32ec-4e25-962b-49c59beff2ff" />
+### 🏠 Homepage & Interface
+<img width="100%" alt="Homepage" src="https://github.com/user-attachments/assets/eb35c669-32ec-4e25-962b-49c59beff2ff" />
 
-![Dashboard]<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/4f848552-520b-43e1-a5a3-d0198149f1b3" />
-ard.png)
-<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/e1b59455-df30-498c-b684-dcf60c3ef703" />
-<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/17ed28f9-0077-4bdf-b69c-bf8fa23dfbae" />
-![Settings]<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/42470ef1-5338-468e-9ba4-af13e30ea4d3" />
-![Profile]<img width="1917" height="898" alt="image" src="https://github.com/user-attachments/assets/d5b179a2-18f4-495f-8114-7b02ce4de93b" />
-![Feedback]<img width="1917" height="901" alt="image" src="https://github.com/user-attachments/assets/62a4f62d-06eb-479d-a389-39d084e528bc" />
+---
+
+### 📊 Admin & Resident Dashboards
+| Main Dashboard | Analytics / Overview |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/4f848552-520b-43e1-a5a3-d0198149f1b3" width="100%"/> | <img src="https://github.com/user-attachments/assets/e1b59455-df30-498c-b684-dcf60c3ef703" width="100%"/> |
+
+| Event Schedules |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/17ed28f9-0077-4bdf-b69c-bf8fa23dfbae" width="100%"/> |
+
+---
+
+### 👤 Profile & User Settings
+| User Profile | System Settings |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/d5b179a2-18f4-495f-8114-7b02ce4de93b" width="100%"/> | <img src="https://github.com/user-attachments/assets/42470ef1-5338-468e-9ba4-af13e30ea4d3" width="100%"/> |
+
+---
+
+### 💬 Resident Feedback & Support
+<img width="100%" alt="Feedback" src="https://github.com/user-attachments/assets/62a4f62d-06eb-479d-a389-39d084e528bc" />
 
 
 
