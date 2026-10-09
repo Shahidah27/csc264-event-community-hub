@@ -1,0 +1,237 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body { 
+    background-color: #06060c; /* Diubah: Tiada !important untuk mengelakkan kelipan skrin */
+    color: #ffffff; 
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    display: flex; 
+    min-height: 100vh; 
+    overflow-x: hidden;
+}
+
+/* Sidebar Navigation Box config */
+.sidebar { 
+    width: 240px; 
+    background-color: #0f0f1a; 
+    border-right: 1px solid rgba(255, 255, 255, 0.06); 
+    position: fixed; 
+    height: 100vh; 
+    padding: 30px 20px; 
+    z-index: 100; 
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.sidebar.hidden { 
+    transform: translateX(-240px); 
+}
+
+.sidebar a { 
+    display: block; 
+    padding: 12px 16px; 
+    color: #a1a1aa; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    margin-bottom: 6px; 
+    font-weight: 500; 
+    font-size: 14px;
+    transition: all 0.2s ease; 
+}
+
+/* Glow layout updates matching the Resident view highlights */
+.sidebar a:hover, .sidebar a.active { 
+    background-color: rgba(236, 72, 153, 0.1); 
+    color: #ec4899; 
+    font-weight: 600;
+}
+
+/* Main Canvas Dynamic Layout Area */
+.main-content { 
+    margin-left: 240px !important; 
+    padding: 40px; 
+    width: calc(100% - 240px) !important; 
+    min-height: 100vh;
+    box-sizing: border-box;
+    transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: margin-left, width;
+}
+
+.main-content.expanded { 
+    margin-left: 0 !important; 
+    width: 100% !important; 
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Top Dashboard Layout Header Row */
+.header-top { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 30px; 
+    width: 100%; 
+}
+
+.header-top h1 { 
+    font-size: 28px; 
+    font-weight: 700; 
+    color: #ffffff; 
+}
+
+.top-controls { 
+    display: flex; 
+    align-items: center; 
+}
+
+.btn-control { 
+    background: #1c1c34; 
+    color: #ffffff; 
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+    padding: 10px 16px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.btn-control:hover { 
+    background: #27274a; 
+}
+
+/* Metric Display Grids */
+.stats-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
+    gap: 20px; 
+    margin-bottom: 24px; 
+    width: 100%; 
+}
+
+.stat-card { 
+    background: #1c1c34; 
+    padding: 24px; 
+    border-radius: 12px; 
+    border: 1px solid rgba(255, 255, 255, 0.05); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(236, 72, 153, 0.3);
+}
+
+.stat-card h3 { 
+    color: #a1a1aa; 
+    font-size: 14px; 
+    font-weight: 600; 
+    margin-bottom: 12px; 
+}
+
+.stat-card p { 
+    font-size: 32px; 
+    font-weight: 700; 
+    color: #ffffff; 
+}
+
+/* Panels & Containers */
+.panel { 
+    background: #0f0f1a; 
+    padding: 24px; 
+    border-radius: 16px; 
+    border: 1px solid rgba(255, 255, 255, 0.06); 
+    margin-bottom: 24px; 
+    width: 100%; 
+}
+
+.panel h2 { 
+    margin-bottom: 20px; 
+    font-size: 18px; 
+    font-weight: 600; 
+    color: #ffffff; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left; 
+}
+
+th { 
+    padding: 14px 16px; 
+    color: #71717a; 
+    font-weight: 600; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06); 
+    font-size: 12px; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;
+}
+
+td { 
+    padding: 16px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04); 
+    font-size: 14px; 
+    color: #ffffff; 
+    vertical-align: middle;
+}
+
+.btn-primary { 
+    background: #1c1c34; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-weight: 500; 
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background: #27274a;
+    border-color: rgba(236, 72, 153, 0.3);
+}
+
+/* User Input Elements Styling */
+.form-group { 
+    margin-bottom: 20px; 
+    width: 100%; 
+}
+
+.form-group label { 
+    display: block; 
+    margin-bottom: 8px; 
+    color: #e4e4e7; 
+    font-size: 14px; 
+    font-weight: 600; 
+}
+
+input, textarea, select { 
+    width: 100%; 
+    padding: 14px; 
+    background: #1c1c34; 
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+    border-radius: 8px; 
+    color: #ffffff; 
+    outline: none; 
+    font-size: 14px; 
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: rgba(236, 72, 153, 0.4);
+}
