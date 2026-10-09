@@ -11,12 +11,12 @@ A web-based event management and community engagement platform built using PHP a
 
 ---
 
-### 📊 Admin & Resident Dashboards
-| Organizer | Resident |
+### 📊 Users Dashboards
+| Admin | Organizer |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/4f848552-520b-43e1-a5a3-d0198149f1b3" width="100%"/> | <img src="https://github.com/user-attachments/assets/e1b59455-df30-498c-b684-dcf60c3ef703" width="100%"/> |
 
-| Admin |
+| Resident |
 | :---: |
 | <img src="https://github.com/user-attachments/assets/17ed28f9-0077-4bdf-b69c-bf8fa23dfbae" width="100%"/> |
 
