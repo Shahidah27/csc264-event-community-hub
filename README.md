@@ -9,6 +9,7 @@ A web-based event management and community engagement platform built using PHP a
 ### 🏠 Homepage & Interface
 <img width="100%" alt="Homepage" src="https://github.com/user-attachments/assets/eb35c669-32ec-4e25-962b-49c59beff2ff" />
 
+*(Note: Settings can change all interface to dark mode or light mode based)*
 ---
 
 ### 📊 Users Dashboards
@@ -32,9 +33,6 @@ A web-based event management and community engagement platform built using PHP a
 ### 💬 Resident Feedback & Support
 <img width="100%" alt="Feedback" src="https://github.com/user-attachments/assets/62a4f62d-06eb-479d-a389-39d084e528bc" />
 
-
-
-*(Note: Replace `overview.png` and `admin_dashboard.png` with the exact filenames of the screenshot images you upload to GitHub)*
 
 ---
 
