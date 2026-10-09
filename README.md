@@ -27,7 +27,7 @@ A web-based event management and community engagement platform built using PHP a
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/d5b179a2-18f4-495f-8114-7b02ce4de93b" width="100%"/> | <img src="https://github.com/user-attachments/assets/42470ef1-5338-468e-9ba4-af13e30ea4d3" width="100%"/> |
 
-*(Note: Settings can change all interface to dark mode or light mode based)*
+*(Note: Settings can change all interfaces to dark mode or light mode)*
 
 ---
 
