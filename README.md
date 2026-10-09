@@ -1,47 +1,46 @@
 # 🏙️ Event Community Hub (CSC264)
 
-A web-based event management and community engagement platform built using **PHP** and **MySQL** for coursework **CSC264 (Web Application Development)**.
+A web-based event management and community engagement platform built using PHP and MySQL for CSC264.
 
 ---
 
-## 📌 Project Overview
-This platform streamlines event organization and resident participation within a local community. It provides distinct interfaces for administrators, organizers, and residents to manage schedules, publish events, collect user feedback, and foster community interaction.
+## 📸 Screenshots
+
+![Homepage](overview.png)<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/eb35c669-32ec-4e25-962b-49c59beff2ff" />
+
+![Dashboard](admin_dashbo<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/4f848552-520b-43e1-a5a3-d0198149f1b3" />
+ard.png)
+<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/e1b59455-df30-498c-b684-dcf60c3ef703" />
+<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/17ed28f9-0077-4bdf-b69c-bf8fa23dfbae" />
+![Settings]<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/42470ef1-5338-468e-9ba4-af13e30ea4d3" />
+![Profile]<img width="1917" height="898" alt="image" src="https://github.com/user-attachments/assets/d5b179a2-18f4-495f-8114-7b02ce4de93b" />
+![Feedback]<img width="1917" height="901" alt="image" src="https://github.com/user-attachments/assets/62a4f62d-06eb-479d-a389-39d084e528bc" />
+
+
+
+*(Note: Replace `overview.png` and `admin_dashboard.png` with the exact filenames of the screenshot images you upload to GitHub)*
 
 ---
 
 ## 🛠️ Tech Stack
-* **Frontend:** HTML5, CSS3, JavaScript
+* **Frontend:** HTML, CSS, JavaScript
 * **Backend:** PHP
 * **Database:** MySQL
-* **Environment:** XAMPP / Apache Server
+* **Environment:** XAMPP / Apache
 
 ---
 
 ## ✨ Key Features
-* 👤 **Multi-Role Authentication:** Dedicated portals for Admins, Event Organizers, and Community Residents.
-* 📅 **Event Management:** Create, publish, finalize, and view details for community activities.
-* 💬 **Feedback & Inquiries:** Integrated messaging and feedback collection system (`admin_feedback.php`, `submit_feedback.php`).
-* 📊 **Admin Dashboard:** Centralized management for event approvals and system navigation.
+* 👤 Multi-Role Authentication (Admin, Organizers, Residents)
+* 📅 Event Creation & Publishing
+* 💬 Resident Feedback & Inquiries
+* 📊 Admin Management Dashboard
 
 ---
 
-## 🚀 Installation & Local Setup
+## 🚀 How to Run Locally
 
-### 1. Prerequisites
-Ensure **XAMPP** (or any local Apache + MySQL stack) is installed on your computer.
-
-### 2. Download / Clone
-Place the repository files into your local server root directory (e.g., `C:\xampp\htdocs\event-hub`).
-
-### 3. Database Setup
-1. Open `http://localhost/phpmyadmin/`.
-2. Create a new database named `smartville_db`.
-3. Import the `smartville_db.sql` file included in this repository.
-
-### 4. Configuration
-Ensure your `db_connect.php` file matches your local database settings:
-```php
-$servername = "localhost";
-$username   = "root";
-$password   = "";
-$dbname     = "smartville_db";
+1. Place the project files in your `htdocs` folder (e.g., `C:\xampp\htdocs\event-hub`).
+2. Open `http://localhost/phpmyadmin/` and create a database named `smartville_db`.
+3. Import the `smartville_db.sql` file provided in this repository.
+4. Launch the project by visiting `http://localhost/event-hub/index.php` in your browser.
